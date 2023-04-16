@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="calcul.css">
+    <title>calculatrice</title>
+</head>
+<body>
+    <!-- bigin budy -->
+<div class="parent">
+<input id="input" class="input" type="text" readonly>
+<div  class="my">
+    <button onclick="print(1)" id="one">1</button>
+    <button onclick="print(2)"id="two">2</button>
+    <button  onclick="print(3)"id="three">3</button>
+    <button   onclick="print('+')"id="plus"class="cafe">+</button>
+    <button  onclick="print('/')" id="device"class="cafe">/</button>
+</div>
+<div class="my">
+    <button onclick="print(4)" id="four">4</button>
+    <button onclick="print(5)" id="five">5</button>
+    <button onclick="print(6)" id="six">6</button>
+    <button onclick="print('-')" id="mines"class="cafe">-</button>
+    <button onclick="print('C')" id="suprimer"class="cafe">C</button>
+</div>
+<div class="my">
+    <button onclick="print(7)" id="seven">7</button>
+    <button onclick="print(8)" id="it"> 8</button>
+    <button onclick="print(9)" id="nine">9</button>
+    <button onclick="print('*')" id="multiple"class="cafe">*</button>
+    <button onclick="print('=')" id="parent"class="cafe">=</button>
+</div>
+<div class="my">
+    <button onclick="print(0)" id="zero">0</button>
+</div>
+</div>
+<script src="calcul.js"></script>
+</body>
+</html>
