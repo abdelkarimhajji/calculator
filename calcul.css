@@ -1,0 +1,53 @@
+.parent{
+    background-color:rgb(255, 255, 255);
+    width: 530px;
+    margin:0 auto;
+    border: 1px solid black ;
+    margin-top: 10%;
+    background-color: #606161;
+    overflow: hidden;
+}
+.input{
+    width: 526px;
+    height: 70px;
+    font-size: 30px;
+    margin-bottom: 20px;
+    border: 0px;
+    border-bottom: 1px solid black;
+    background-color: #2a2b2b;
+    color: white;
+    padding-left:30px ;
+   
+}
+.my{
+    width: 100%;
+}
+.my button{
+    width: 90px;
+    height: 90px;
+    margin-bottom: 20px;
+    font-size: 20px;
+    margin-left: 10px;
+    background-color: #606161;
+    border: 1px solid rgb(255, 255, 255);
+    color: white;
+}
+.my button:hover{
+    transition:0.7s;
+    background-color: rgb(154, 152, 152);
+}
+.input:focus{
+    border: 0px;
+    outline: 1px solid black;
+}
+.cafe{
+    background-color: #ff9f0b !important;
+    border: 1px solid #ff9f0b !important;
+}
+.cafe:hover{
+    background-color: #c07607 !important;
+    border: 1px solid #c07607 !important;
+}
+.my #zero{
+    width: 95%;
+}
